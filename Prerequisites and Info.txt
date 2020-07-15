@@ -1,0 +1,24 @@
+You need to install the packages/modules:
+Tensorflow and keras.
+
+Anaconda install code run:
+
+Tensorflow:
+To install the current release of CPU-only TensorFlow, recommended for beginners:
+conda create -n tf tensorflow
+conda activate tf
+
+Or, to install the current release of GPU TensorFlow on Linux or Windows:
+conda create -n tf-gpu tensorflow-gpu
+conda activate tf-gpu
+
+Keras:
+conda install -c conda-forge keras
+
+
+In this example I built a Convolutional Neural Network model which process and learns from thousands of different images in order to predict if given picture is a A or B (in my case a cat or a dog).
+
+Important Note: as of today GitHub have a limited capacity per repository, so I'm not able to upload the thousands of pictures used in the model; and uploading less pictures will possibly change the outcome, so I encourage you to use your own images and test the given results in your own Convolutional Neural Network model.
+
+
+R is awesome, but back in the days when I wanted to expand my knowledge from R to Python I took an amazing self taught Machine Learning course called 'ML A-Z'; the course tutors are Kirill Eremenko and Hadelin de Ponteves. And as of today I keep doing different projects with the previous knowledge learned.
